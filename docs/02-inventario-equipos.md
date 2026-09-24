@@ -1,4 +1,19 @@
 La maqueta de laboratorio DWDM está compuesta por instrumentación de medición avanzada y equipos de transmisión óptica de transporte. A continuación, se detalla la función técnica, el tipo de interfaces y el rol dentro del rack de cada uno de los 7 componentes principales.
+
++-----------------------------------------------------------------------+
+|  [MTX150x - Analizador Eth]       [OSA - RXT4510 Analizador Espectral]|
++-----------------------------------------------------------------------+
+|  [Switch Ethernet - MikroTik CSS610-8G-2S+IN]                         |
++-----------------------------------------------------------------------+
+|  [ODF - Optical Distribution Frame (Puertos 1-A a 10)]                |
++-----------------------------------------------------------------------+
+|  [DWDM 1 - Chasis HT6000-1U]                                         |
++-----------------------------------------------------------------------+
+|  [DWDM 2 - Chasis HT6000-1U]                                         |
++-----------------------------------------------------------------------+
+|  [Carrete Fibra AB 25 km]   [Carrete Fibra BA 25 km]    [OVA JW3303]  |
++-----------------------------------------------------------------------+
+
 ### 1. Analizador Ethernet (VeEX MTX150x)
 *   **Función Técnica:** Equipo de prueba multifunción para generación de tráfico de red en capas L2/L3 y validación de rendimiento mediante pruebas estandarizadas (RFC 2544 y Y.1564).
 *   **Tipo de Interfaz:** Dispone de puertos RJ45 para cobre y puertos ópticos SFP/SFP+ para enlaces de hasta 10 Gbps.
